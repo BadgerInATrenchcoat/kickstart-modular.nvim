@@ -13,13 +13,12 @@ local p = {
   cursor = '#85776f',
   comment = '#85826f',
 
-  -- kitty 16 colors (as given)
   teal = '#049582', -- color1
-  orange0 = '#da6b2b', -- color2 (strong orange)
+  orange0 = '#da6b2b', -- color2 
   peach1 = '#ee9968', -- color3
   gold = '#cfb617', -- color4
   lime = '#82c115', -- color5
-  orange1 = '#e6854d', -- color6 (your chosen "main prompt" orange)
+  orange1 = '#e6854d', -- color6 
   white = '#eeede8', -- color7
 
   teal_b = '#1cc4ae', -- color9
@@ -93,7 +92,7 @@ hi('Define', { fg = p.gold })
 hi('Special', { fg = p.orange0 })
 hi('Todo', { fg = p.bg, bg = p.gold, bold = true })
 
--- Diagnostics (no "red" in this palette, so use strong orange for errors)
+-- Diagnostics
 hi('DiagnosticError', { fg = p.orange0 })
 hi('DiagnosticWarn', { fg = p.gold })
 hi('DiagnosticInfo', { fg = p.teal_b })
